@@ -1,22 +1,22 @@
-fun main() {
-    val i:String=("ウマ娘")
-    val e:String=("ノットウマ娘")
-    val umalist = arrayOf("spe", "suzuka", "toukai")
-    print("入力してください:")
+class Umamusume(name: String) {
+    var name = name
 
-    val UmaName = readLine()
-    if (umalist[0]==UmaName){
-        println(i)
+    fun umadata(data: Array):
 
+
+    fun judge(avg: Int): String {
+        var result: String
+        if (name != inputName) {
+            result = "faild"
+        }
+        return result
     }
-    else if(umalist[1]==UmaName){
-        print(i)
-    }
-    else if(umalist[2]==UmaName){
-        print(i)
-    }
-    else{
-        print(e)
-    }
+}
+
+fun main(){
+    var a001=Umamusume("supe")
+    var data = arrayOf("A","G","F","C","A","A","G","A","A","C")//for文で順番に表示できるようにする
+    println("ウマ娘の名前入力してください")
+    val inputName= readLine()
 
 }
